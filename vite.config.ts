@@ -8,6 +8,7 @@ export default defineConfig(({ mode }) => {
       server: {
         port: 3000,
         host: '0.0.0.0',
+        allowedHosts: ['lunaserena2.onrender.com'] // agregado para permitir ese host
       },
       plugins: [react()],
       define: {
