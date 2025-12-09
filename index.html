@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <title>Luna Serena - Jabonería Artesanal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              luna: {
+                base: '#EAD8CE', // Soft beige/pink (Original background, now text/accent)
+                night: '#0B0C15', // Deep dark night background
+                dark: '#4A3B32', // Dark brown (Logo text, keeping for contrast)
+                green: '#7CA982', // Sage green
+                gold: '#C5A059', // Accent
+                light: '#FDF6F3' // Almost white
+              }
+            },
+            fontFamily: {
+              serif: ['"Cormorant Garamond"', 'serif'],
+              sans: ['"Montserrat"', 'sans-serif'],
+            },
+            backgroundImage: {
+              'stars': "radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 3px)"
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #0B0C15; /* Night color */
+        color: #EAD8CE; /* Base beige color for text */
+        overflow-x: hidden;
+      }
+      .moon-glow {
+        box-shadow: 0 0 30px 10px rgba(234, 216, 206, 0.2);
+      }
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 6px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #0B0C15; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #4A3B32; 
+        border-radius: 10px;
+      }
+      .star {
+        position: absolute;
+        background: white;
+        border-radius: 50%;
+        animation: twinkle infinite ease-in-out;
+        box-shadow: 0 0 4px rgba(255, 255, 255, 0.8);
+      }
+      @keyframes twinkle {
+        0%, 100% { opacity: 0.2; transform: scale(0.8); }
+        50% { opacity: 1; transform: scale(1.2); }
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
