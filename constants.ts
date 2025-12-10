@@ -83,7 +83,8 @@ export const PRODUCTS: Product[] = [
     benefits: 'Purificante, protector y revitalizante. Absorbe energías negativas.',
     idealFor: 'Limpieza energética tradicional.',
     category: 'esoterico',
-    imagePlaceholderColor: 'bg-green-600'
+    imagePlaceholderColor: 'bg-green-600',
+    image: '/resource/productos/RUDA.png'
   },
   {
     id: 'romero',
@@ -105,7 +106,8 @@ export const PRODUCTS: Product[] = [
     benefits: 'Calma, suaviza y equilibra emociones.',
     idealFor: 'Relajación profunda y piel estresada.',
     category: 'esoterico',
-    imagePlaceholderColor: 'bg-purple-300'
+    imagePlaceholderColor: 'bg-purple-300',
+    image: '/resource/productos/QUARZO.png'
   },
   {
     id: 'bombshell',
@@ -127,7 +129,8 @@ export const PRODUCTS: Product[] = [
     benefits: 'Edición limitada de temporada.',
     idealFor: 'Regalos y decoración.',
     category: 'temporada',
-    imagePlaceholderColor: 'bg-red-600'
+    imagePlaceholderColor: 'bg-red-600',
+    image: '/resource/productos/NAVIDAD.png'
   },
   {
     id: 'pies',
