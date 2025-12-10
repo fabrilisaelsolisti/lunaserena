@@ -1,4 +1,13 @@
 import { Product } from './types';
+import aguacateImg from './assets/productos/AGUACATE.png';
+import aloeImg from './assets/productos/ALOE_VERA.png';
+import avenaImg from './assets/productos/AVENA.png';
+import carbonImg from './assets/productos/CARBON_ACTIVADO.png';
+import mentaImg from './assets/productos/MENTA_EUCALIPTO.png';
+import rudaImg from './assets/productos/RUDA.png';
+import quarzoImg from './assets/productos/QUARZO.png';
+import navidadImg from './assets/productos/NAVIDAD.png';
+import piesImg from './assets/productos/CARBON_ACTIVADO_EXFOLIANTE_PIES.png';
 
 export const WHATSAPP_NUMBER = "593964201819"; // Extracted from PDF (0964201819 with EC code)
 
@@ -13,7 +22,7 @@ export const PRODUCTS: Product[] = [
     idealFor: 'Piel seca, irritada o apagada.',
     category: 'natural',
     imagePlaceholderColor: 'bg-green-200',
-    image: '/resource/productos/AGUACATE.png'
+    image: aguacateImg
   },
   {
     id: 'aloe',
@@ -25,7 +34,7 @@ export const PRODUCTS: Product[] = [
     idealFor: 'Piel sensible, irritada o con tendencia a la resequedad.',
     category: 'natural',
     imagePlaceholderColor: 'bg-green-400',
-    image: '/resource/productos/ALOE_VERA.png'
+    image: aloeImg
   },
   {
     id: 'avena',
@@ -37,7 +46,7 @@ export const PRODUCTS: Product[] = [
     idealFor: 'Piel sensible, reseca, con picazón o tendencia a irritarse.',
     category: 'natural',
     imagePlaceholderColor: 'bg-orange-100',
-    image: '/resource/productos/AVENA.png'
+    image: avenaImg
   },
   {
     id: 'calendula',
@@ -60,7 +69,7 @@ export const PRODUCTS: Product[] = [
     idealFor: 'Piel mixta, grasa o propensa a puntos negros.',
     category: 'natural',
     imagePlaceholderColor: 'bg-gray-800',
-    image: '/resource/productos/CARBON_ACTIVADO.png'
+    image: carbonImg
   },
   {
     id: 'menta',
@@ -72,7 +81,7 @@ export const PRODUCTS: Product[] = [
     idealFor: 'Piel mixta, grasa o efecto cooling.',
     category: 'natural',
     imagePlaceholderColor: 'bg-teal-200',
-    image: '/resource/productos/MENTA_EUCALIPTO.png'
+    image: mentaImg
   },
   {
     id: 'ruda',
@@ -84,7 +93,7 @@ export const PRODUCTS: Product[] = [
     idealFor: 'Limpieza energética tradicional.',
     category: 'esoterico',
     imagePlaceholderColor: 'bg-green-600',
-    image: '/resource/productos/RUDA.png'
+    image: rudaImg
   },
   {
     id: 'romero',
@@ -107,7 +116,7 @@ export const PRODUCTS: Product[] = [
     idealFor: 'Relajación profunda y piel estresada.',
     category: 'esoterico',
     imagePlaceholderColor: 'bg-purple-300',
-    image: '/resource/productos/QUARZO.png'
+    image: quarzoImg
   },
   {
     id: 'bombshell',
@@ -130,7 +139,7 @@ export const PRODUCTS: Product[] = [
     idealFor: 'Regalos y decoración.',
     category: 'temporada',
     imagePlaceholderColor: 'bg-red-600',
-    image: '/resource/productos/NAVIDAD.png'
+    image: navidadImg
   },
   {
     id: 'pies',
@@ -142,6 +151,6 @@ export const PRODUCTS: Product[] = [
     idealFor: 'Pies con resequedad o callitos.',
     category: 'natural',
     imagePlaceholderColor: 'bg-gray-600',
-    image: '/resource/productos/CARBON_ACTIVADO_EXFOLIANTE_PIES.png'
+    image: piesImg
   }
 ];
