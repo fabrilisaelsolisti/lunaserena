@@ -1,13 +1,48 @@
 import { Product } from './types';
 import aguacateImg from './assets/productos/AGUACATE.png';
+import aguacate400 from './assets/productos/AGUACATE-400w.png';
+import aguacate800 from './assets/productos/AGUACATE-800w.png';
+import aguacate1200 from './assets/productos/AGUACATE-1200w.png';
+
 import aloeImg from './assets/productos/ALOE_VERA.png';
+import aloe400 from './assets/productos/ALOE_VERA-400w.png';
+import aloe800 from './assets/productos/ALOE_VERA-800w.png';
+import aloe1200 from './assets/productos/ALOE_VERA-1200w.png';
+
 import avenaImg from './assets/productos/AVENA.png';
+import avena400 from './assets/productos/AVENA-400w.png';
+import avena800 from './assets/productos/AVENA-800w.png';
+import avena1200 from './assets/productos/AVENA-1200w.png';
+
 import carbonImg from './assets/productos/CARBON_ACTIVADO.png';
+import carbon400 from './assets/productos/CARBON_ACTIVADO-400w.png';
+import carbon800 from './assets/productos/CARBON_ACTIVADO-800w.png';
+import carbon1200 from './assets/productos/CARBON_ACTIVADO-1200w.png';
+
 import mentaImg from './assets/productos/MENTA_EUCALIPTO.png';
+import menta400 from './assets/productos/MENTA_EUCALIPTO-400w.png';
+import menta800 from './assets/productos/MENTA_EUCALIPTO-800w.png';
+import menta1200 from './assets/productos/MENTA_EUCALIPTO-1200w.png';
+
 import rudaImg from './assets/productos/RUDA.png';
+import ruda400 from './assets/productos/RUDA-400w.png';
+import ruda800 from './assets/productos/RUDA-800w.png';
+import ruda1200 from './assets/productos/RUDA-1200w.png';
+
 import quarzoImg from './assets/productos/QUARZO.png';
+import quarzo400 from './assets/productos/QUARZO-400w.png';
+import quarzo800 from './assets/productos/QUARZO-800w.png';
+import quarzo1200 from './assets/productos/QUARZO-1200w.png';
+
 import navidadImg from './assets/productos/NAVIDAD.png';
+import navidad400 from './assets/productos/NAVIDAD-400w.png';
+import navidad800 from './assets/productos/NAVIDAD-800w.png';
+import navidad1200 from './assets/productos/NAVIDAD-1200w.png';
+
 import piesImg from './assets/productos/CARBON_ACTIVADO_EXFOLIANTE_PIES.png';
+import pies400 from './assets/productos/CARBON_ACTIVADO_EXFOLIANTE_PIES-400w.png';
+import pies800 from './assets/productos/CARBON_ACTIVADO_EXFOLIANTE_PIES-800w.png';
+import pies1200 from './assets/productos/CARBON_ACTIVADO_EXFOLIANTE_PIES-1200w.png';
 
 export const WHATSAPP_NUMBER = "593964201819"; // Extracted from PDF (0964201819 with EC code)
 
@@ -22,7 +57,10 @@ export const PRODUCTS: Product[] = [
     idealFor: 'Piel seca, irritada o apagada.',
     category: 'natural',
     imagePlaceholderColor: 'bg-green-200',
-    image: aguacateImg
+    image: aguacateImg,
+    image400w: aguacate400,
+    image800w: aguacate800,
+    image1200w: aguacate1200
   },
   {
     id: 'aloe',
@@ -34,7 +72,10 @@ export const PRODUCTS: Product[] = [
     idealFor: 'Piel sensible, irritada o con tendencia a la resequedad.',
     category: 'natural',
     imagePlaceholderColor: 'bg-green-400',
-    image: aloeImg
+    image: aloeImg,
+    image400w: aloe400,
+    image800w: aloe800,
+    image1200w: aloe1200
   },
   {
     id: 'avena',
@@ -46,7 +87,10 @@ export const PRODUCTS: Product[] = [
     idealFor: 'Piel sensible, reseca, con picazón o tendencia a irritarse.',
     category: 'natural',
     imagePlaceholderColor: 'bg-orange-100',
-    image: avenaImg
+    image: avenaImg,
+    image400w: avena400,
+    image800w: avena800,
+    image1200w: avena1200
   },
   {
     id: 'calendula',
@@ -69,7 +113,10 @@ export const PRODUCTS: Product[] = [
     idealFor: 'Piel mixta, grasa o propensa a puntos negros.',
     category: 'natural',
     imagePlaceholderColor: 'bg-gray-800',
-    image: carbonImg
+    image: carbonImg,
+    image400w: carbon400,
+    image800w: carbon800,
+    image1200w: carbon1200
   },
   {
     id: 'menta',
@@ -81,7 +128,10 @@ export const PRODUCTS: Product[] = [
     idealFor: 'Piel mixta, grasa o efecto cooling.',
     category: 'natural',
     imagePlaceholderColor: 'bg-teal-200',
-    image: mentaImg
+    image: mentaImg,
+    image400w: menta400,
+    image800w: menta800,
+    image1200w: menta1200
   },
   {
     id: 'ruda',
@@ -93,7 +143,10 @@ export const PRODUCTS: Product[] = [
     idealFor: 'Limpieza energética tradicional.',
     category: 'esoterico',
     imagePlaceholderColor: 'bg-green-600',
-    image: rudaImg
+    image: rudaImg,
+    image400w: ruda400,
+    image800w: ruda800,
+    image1200w: ruda1200
   },
   {
     id: 'romero',
@@ -116,7 +169,10 @@ export const PRODUCTS: Product[] = [
     idealFor: 'Relajación profunda y piel estresada.',
     category: 'esoterico',
     imagePlaceholderColor: 'bg-purple-300',
-    image: quarzoImg
+    image: quarzoImg,
+    image400w: quarzo400,
+    image800w: quarzo800,
+    image1200w: quarzo1200
   },
   {
     id: 'bombshell',
@@ -139,7 +195,10 @@ export const PRODUCTS: Product[] = [
     idealFor: 'Regalos y decoración.',
     category: 'temporada',
     imagePlaceholderColor: 'bg-red-600',
-    image: navidadImg
+    image: navidadImg,
+    image400w: navidad400,
+    image800w: navidad800,
+    image1200w: navidad1200
   },
   {
     id: 'pies',
@@ -151,6 +210,9 @@ export const PRODUCTS: Product[] = [
     idealFor: 'Pies con resequedad o callitos.',
     category: 'natural',
     imagePlaceholderColor: 'bg-gray-600',
-    image: piesImg
-  }
+    image: piesImg,
+    image400w: pies400,
+    image800w: pies800,
+    image1200w: pies1200
+  },
 ];

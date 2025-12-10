@@ -27,9 +27,9 @@ const ProductModal: React.FC<ProductModalProps> = ({ product, onClose, onOrder }
                         <img
                             src={product.image}
                             srcSet={`
-                        ${product.image.replace('.png', '-400w.png')} 400w,
-                        ${product.image.replace('.png', '-800w.png')} 800w,
-                        ${product.image.replace('.png', '-1200w.png')} 1200w
+                        ${product.image400w || product.image} 400w,
+                        ${product.image800w || product.image} 800w,
+                        ${product.image1200w || product.image} 1200w
                     `}
                             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                             alt={product.name}
