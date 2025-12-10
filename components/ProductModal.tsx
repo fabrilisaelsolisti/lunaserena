@@ -22,7 +22,8 @@ const ProductModal: React.FC<ProductModalProps> = ({ product, onClose, onOrder }
       <div className="relative bg-luna-light w-full max-w-md rounded-2xl shadow-2xl overflow-hidden animate-[fadeIn_0.3s_ease-out]">
         
         {/* Header Image */}
-        <div className={`h-40 ${product.imagePlaceholderColor} relative flex items-center justify-center`}>
+        <div className={`h-40 ${product.imagePlaceholderColor} relative flex items-center justify-center`} style={{ backgroundImage: `url(${product.image})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+            
             <button 
                 onClick={onClose}
                 className="absolute top-3 right-3 bg-black/20 text-white rounded-full w-8 h-8 flex items-center justify-center hover:bg-black/40 transition"

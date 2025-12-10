@@ -12,7 +12,8 @@ export const PRODUCTS: Product[] = [
     benefits: 'Hidratación profunda, suavidad inmediata, piel más flexible y nutrida.',
     idealFor: 'Piel seca, irritada o apagada.',
     category: 'natural',
-    imagePlaceholderColor: 'bg-green-200'
+    imagePlaceholderColor: 'bg-green-200',
+    image: '/resource/productos/AGUACATE.png'
   },
   {
     id: 'aloe',
@@ -23,7 +24,8 @@ export const PRODUCTS: Product[] = [
     benefits: 'Calma al instante, reduce enrojecimiento, hidrata sin dejar grasa y ayuda a regenerar la piel.',
     idealFor: 'Piel sensible, irritada o con tendencia a la resequedad.',
     category: 'natural',
-    imagePlaceholderColor: 'bg-green-400'
+    imagePlaceholderColor: 'bg-green-400',
+    image: '/resource/productos/ALOE_VERA.png'
   },
   {
     id: 'avena',
@@ -34,7 +36,8 @@ export const PRODUCTS: Product[] = [
     benefits: 'Alivia irritaciones, reduce enrojecimiento, aporta suavidad profunda.',
     idealFor: 'Piel sensible, reseca, con picazón o tendencia a irritarse.',
     category: 'natural',
-    imagePlaceholderColor: 'bg-orange-100'
+    imagePlaceholderColor: 'bg-orange-100',
+    image: '/resource/productos/AVENA.png'
   },
   {
     id: 'calendula',
@@ -56,7 +59,8 @@ export const PRODUCTS: Product[] = [
     benefits: 'Limpieza profunda, ayuda a desintoxicar, reduce impurezas.',
     idealFor: 'Piel mixta, grasa o propensa a puntos negros.',
     category: 'natural',
-    imagePlaceholderColor: 'bg-gray-800'
+    imagePlaceholderColor: 'bg-gray-800',
+    image: '/resource/productos/CARBON_ACTIVADO.png'
   },
   {
     id: 'menta',
@@ -67,7 +71,8 @@ export const PRODUCTS: Product[] = [
     benefits: 'Refresca, descongestiona, reduce pesadez y revitaliza.',
     idealFor: 'Piel mixta, grasa o efecto cooling.',
     category: 'natural',
-    imagePlaceholderColor: 'bg-teal-200'
+    imagePlaceholderColor: 'bg-teal-200',
+    image: '/resource/productos/MENTA_EUCALIPTO.png'
   },
   {
     id: 'ruda',
@@ -133,6 +138,7 @@ export const PRODUCTS: Product[] = [
     benefits: 'Elimina durezas y suaviza talones.',
     idealFor: 'Pies con resequedad o callitos.',
     category: 'natural',
-    imagePlaceholderColor: 'bg-gray-600'
+    imagePlaceholderColor: 'bg-gray-600',
+    image: '/resource/productos/CARBON_ACTIVADO_EXFOLIANTE_PIES.png'
   }
 ];

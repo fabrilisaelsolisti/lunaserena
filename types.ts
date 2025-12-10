@@ -8,6 +8,7 @@ export interface Product {
   idealFor: string;
   category: 'natural' | 'esoterico' | 'temporada' | 'personalizado';
   imagePlaceholderColor: string; // To simulate distinct images
+  image ?: string;
 }
 
 export interface NavigationItem {
