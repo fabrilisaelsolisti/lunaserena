@@ -71,12 +71,12 @@ function App() {
             <div className="absolute -bottom-2 -right-4 text-3xl text-luna-green transform -rotate-12 drop-shadow-lg">🌿</div>
           </div>
 
-          <h1 className="font-serif text-4xl text-luna-base mb-2 drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">
-            El Misterio de la Luna
-          </h1>
-          <p className="font-sans text-luna-base/80 text-sm max-w-xs mx-auto reveal-text tracking-wide">
-            Jabonería Artesanal hecha con magia, intención y naturaleza.
-          </p>
+           <h1 className="font-serif text-4xl text-luna-base mb-2 drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">
+             Jabonería Artesanal
+          </h1> 
+         <p className="font-sans text-luna-base/80 text-sm max-w-xs mx-auto reveal-text tracking-wide">
+            Hecha con magia, intención y naturaleza.
+          </p> 
 
           {/* Social Links */}
           <div className="mt-4 flex justify-center gap-4 reveal-text">
